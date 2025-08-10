@@ -4,6 +4,14 @@
   "description": "A bi-directional infinite scroll React component for Next.js + shadcn/ui",
   "license": "MIT",
   "author": "Rupesh Babu Shrestha <stharupen619@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stharupesh/bidirectional-infinite-scroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stharupesh/bidirectional-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/stharupesh/bidirectional-infinite-scroll#readme",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
