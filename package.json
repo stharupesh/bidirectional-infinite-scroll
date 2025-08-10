@@ -1,6 +1,6 @@
 {
   "name": "bidirectional-infinite-scroll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A bi-directional infinite scroll React component for Next.js + shadcn/ui",
   "license": "MIT",
   "author": "Rupesh Babu Shrestha <stharupen619@gmail.com>",
