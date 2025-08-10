@@ -9,11 +9,11 @@ npm i bidirectional-infinite-scroll
 
 ## Usage
 ```tsx
-import { BiDirectionalInfiniteScroll } from "bidirectional-infinite-scroll";
+import { BidirectionalInfiniteScroll } from "bidirectional-infinite-scroll";
 
 export default function Demo() {
   return (
-    <BiDirectionalInfiniteScroll
+    <BidirectionalInfiniteScroll
       data={[...Array(1000).keys()]}
       pageSize={20}
       renderPage={(pageData, pageIndex) => (
