@@ -1,6 +1,6 @@
 {
   "name": "bidirectional-infinite-scroll",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A bi-directional infinite scroll React component for Next.js + shadcn/ui",
   "license": "MIT",
   "author": "Rupesh Babu Shrestha <stharupen619@gmail.com>",
@@ -14,8 +14,16 @@
   "homepage": "https://github.com/stharupesh/bidirectional-infinite-scroll#readme",
   "type": "module",
   "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
   "files": ["dist"],
   "sideEffects": false,
   "scripts": {
