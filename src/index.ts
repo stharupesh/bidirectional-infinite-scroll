@@ -1,1 +1,1 @@
-export * from "./BiDirectionalInfiniteScroll";
+export * from "./BidirectionalInfiniteScroll";

@@ -14,7 +14,7 @@ export type PaginatedScrollViewProps<T> = {
   pageLoadDelay?: number;
 };
 
-export function BiDirectionalInfiniteScroll<T>({
+export function BidirectionalInfiniteScroll<T>({
   data,
   pageSize = 20,
   renderPage,
